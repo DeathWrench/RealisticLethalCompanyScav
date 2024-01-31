@@ -1,5 +1,4 @@
 using ModelReplacement;
-using realisticscavenger;
 using UnityEngine;
 
 namespace realisticscavenger
