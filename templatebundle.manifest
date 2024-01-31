@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4107343836
+CRC: 3504526035
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9244e1ac0bdd4df1cb93c5f07782ab24
+    Hash: b0e4549d10e789c73e672d44179814e5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a860ac3a971b01c416c7a6c1c7546b7e
+    Hash: d919e44f3849ce9c06744e353f422b14
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 9244e1ac0bdd4df1cb93c5f07782ab24
+    Hash: b0e4549d10e789c73e672d44179814e5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,5 +38,24 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/ModelReplacementSDK/AssetsToBuild/fixedscav.prefab
+- Assets/modelreplacementsdk/assetstobuild/pajamascav.prefab
+- Assets/modelreplacementsdk/assetstobuild/purplescav.prefab
+- Assets/Material/ClothingHazard.mat
+- Assets/Material/ClothingPurple.mat
+- Assets/Texture2D/Gear_Base_Color.png
+- Assets/modelreplacementsdk/assetstobuild/hazardscav.prefab
+- Assets/Texture2D/Clothing_Base_ColorPJs.png
+- Assets/Texture2D/Clothing_Base_Color.png
+- Assets/Texture2D/Gear_Normal_OpenGL.png
+- Assets/Texture2D/Clothing_Base_ColorG.png
+- Assets/Material/ClothingGreen.mat
+- Assets/Texture2D/Helmet_Normal_OpenGL.png
+- Assets/Material/ClothingPajama.mat
+- Assets/Texture2D/Clothing_Base_ColorPrpl.png
+- Assets/Material/Clothing.mat
+- Assets/Texture2D/Helmet_Base_Color.png
+- Assets/Texture2D/Clothing_Base_ColorY.png
+- Assets/Texture2D/Clothing_Normal_OpenGL.png
+- Assets/modelreplacementsdk/assetstobuild/fixedscav.prefab
+- Assets/modelreplacementsdk/assetstobuild/greenscav.prefab
 Dependencies: []

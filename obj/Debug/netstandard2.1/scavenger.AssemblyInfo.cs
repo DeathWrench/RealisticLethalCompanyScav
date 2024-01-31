@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("scavenger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbb36b17d7044d0dfb461f361eb859943417f466")]
 [assembly: System.Reflection.AssemblyProductAttribute("scavenger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("scavenger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

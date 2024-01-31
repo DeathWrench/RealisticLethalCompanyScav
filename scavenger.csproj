@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
-    <LethalCompanyPath>D:\SteamLibrary\steamapps\common\Lethal Company</LethalCompanyPath>
+    <LethalCompanyPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company</LethalCompanyPath>
   </PropertyGroup>
   
   <PropertyGroup>
@@ -26,6 +26,7 @@
   <ItemGroup>
     <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.1" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.BaseLib" Version="5.4.20" />
     <PackageReference Include="BepInEx.Core" Version="5.*" IncludeAssets="compile" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" IncludeAssets="compile" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" IncludeAssets="compile" />

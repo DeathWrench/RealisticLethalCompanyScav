@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\scavenger\\scavenger.csproj": {}
+    "C:\\Users\\death\\source\\repos\\scavenger\\scavenger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\scavenger\\scavenger.csproj": {
+    "C:\\Users\\death\\source\\repos\\scavenger\\scavenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\scavenger\\scavenger.csproj",
+        "projectUniqueName": "C:\\Users\\death\\source\\repos\\scavenger\\scavenger.csproj",
         "projectName": "scavenger",
-        "projectPath": "C:\\Users\\user\\Documents\\scavenger\\scavenger.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\scavenger\\obj\\",
+        "projectPath": "C:\\Users\\death\\source\\repos\\scavenger\\scavenger.csproj",
+        "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\death\\source\\repos\\scavenger\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "c:\\program files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.bepinex.dev/v3/index.json": {}
         },
@@ -49,6 +54,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[0.4.1, )"
+            },
+            "BepInEx.BaseLib": {
+              "target": "Package",
+              "version": "[5.4.20, )"
             },
             "BepInEx.Core": {
               "include": "Compile",
@@ -92,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

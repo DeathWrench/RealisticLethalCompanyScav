@@ -11,6 +11,7 @@
         "dependencies": {
           "BepInEx.Analyzers": "1.0.8",
           "BepInEx.AssemblyPublicizer.MSBuild": "0.4.1",
+          "BepInEx.BaseLib": "5.4.20",
           "BepInEx.Core": "5.4.21",
           "BepInEx.PluginInfoProps": "1.1.0",
           "HarmonyX": "2.10.2",
@@ -55,7 +56,14 @@
           }
         }
       },
-      "BepInEx.BaseLib/5.4.20": {},
+      "BepInEx.BaseLib/5.4.20": {
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.dll": {
+            "assemblyVersion": "5.4.20.0",
+            "fileVersion": "5.4.20.0"
+          }
+        }
+      },
       "BepInEx.Core/5.4.21": {
         "dependencies": {
           "BepInEx.BaseLib": "5.4.20",

@@ -4,7 +4,8 @@
     "website_url": "",
     "description": " more realistic scav",
     "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100",
-		"BunyaPineTree-ModelReplacementAPI-2.3.1"
-    ]
+    "BepInEx-BepInExPack-5.4.2100",
+    "BunyaPineTree-ModelReplacementAPI-2.3.1",
+    "EliteScavs-HighQualityScavlethalcompany-1.2.0"
+  ]
 }
