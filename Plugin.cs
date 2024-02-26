@@ -9,7 +9,7 @@ using DunGen;
 
 namespace realisticscavenger
 {
-    [BepInPlugin("com.realisticscav.battle", "Realistic Scav", "0.1.0")]
+    [BepInPlugin("DeathWrench.RealisticScavengers", "Realistic Scavengers", "0.1.2")]
     [BepInDependency("meow.ModelReplacementAPI", BepInDependency.DependencyFlags.HardDependency)]
 
     public class Plugin : BaseUnityPlugin
@@ -34,7 +34,7 @@ namespace realisticscavenger
     public static class Assets
     {
         // Replace mbundle with the Asset Bundle Name from your unity project 
-        public static string mainAssetBundleName = "templatebundle";
+        public static string mainAssetBundleName = "RealsticScavenger";
         public static AssetBundle MainAssetBundle = null;
 
         private static string GetAssemblyName() => Assembly.GetExecutingAssembly().GetName().Name.Replace(" ","_");

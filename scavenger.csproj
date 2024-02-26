@@ -17,10 +17,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="templatebundle" />
+    <None Remove="RealsticScavenger" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="templatebundle" />
+    <EmbeddedResource Include="RealsticScavenger" />
   </ItemGroup>
   
   <ItemGroup>
